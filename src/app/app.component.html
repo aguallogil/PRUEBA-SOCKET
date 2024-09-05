@@ -1,0 +1,14 @@
+<!-- src/app/app.component.html -->
+<div class="container">
+  <h1>Login</h1>
+  <div>
+    <label for="username">Username:</label>
+    <input id="username" type="text" [(ngModel)]="username">
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input id="password" type="password" [(ngModel)]="password">
+  </div>
+  <button (click)="login()">Login</button>
+  <button (click)="logout()">Logout</button>
+</div>

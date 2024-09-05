@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "prueba-socket", 
+    "public": "dist/prueba-socket/browser",  
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

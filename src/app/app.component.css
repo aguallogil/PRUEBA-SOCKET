@@ -1,0 +1,30 @@
+/* src/app/app.component.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  input {
+    width: calc(100% - 90px);
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  

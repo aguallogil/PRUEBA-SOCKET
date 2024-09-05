@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "prueba-socket-oscar-aguallo"
+  },
+  "targets": {
+    "prueba-socket-oscar-aguallo": {  
+      "hosting": {
+        "prueba-socket": [  
+          "prueba-socket-oscar-aguallo"
+        ]
+      }
+    }
+  }
+}
